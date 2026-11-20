@@ -1,10 +1,12 @@
 def menu():
-    print(.....)
+    print()
+    
 def fun1():
     a = int(input("a="))
     b = int(input("b="))
     result = a**b
     print(f"{a}的{b}次方={result}")
+    
 def fun21(n):
     ans = 1
     for i in range(1,n+1):
